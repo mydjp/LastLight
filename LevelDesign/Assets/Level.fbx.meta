@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f508f559b7a3dd74f86dc557b17e37df
+guid: 4635bab78a1f22e46a2bec004505978f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -71,18 +71,18 @@ ModelImporter:
     2100018: lambert1
     2100020: Default_Material
     2100022: BrokenRocks1
-    2100024: EmployeeRoom1
-    2100026: FirstFloorWalls1
-    2100028: Door4
-    2100030: Basment
-    2100032: EscalatorHall1
-    2100034: Beam_m
-    2100036: FirstFloorRoof1
-    2100038: FIrstFloorFloor
-    2100040: OutSideRailing1
-    2100042: IntersectionPillars
-    2100044: TrainTracks_TrainTracks
-    2100046: ExtraTunnel1
+    2100024: Door4
+    2100026: Basment
+    2100028: Beam_m
+    2100030: IntersectionPillars
+    2100032: TrainTracks_TrainTracks
+    2100034: ExtraTunnel1
+    2100036: EmployeeRoom2
+    2100038: FirstFloorWalls2
+    2100040: FirstFloorRoof2
+    2100042: FIrstFloorFloor1
+    2100044: OutSideRailing2
+    2100046: EscalatorHall1
     2300000: BaseMent
     2300002: Beam
     2300004: BrokenRocks
@@ -152,19 +152,129 @@ ModelImporter:
     4300024: RampCollider2
     4300026: Intersection
     4300028: BrokenRocks
-    4300030: EmployeeRoom
-    4300032: FirstFloorWalls
-    4300034: Door
-    4300036: BaseMent
-    4300038: EscalatorHall
-    4300040: Beam
-    4300042: RoofFirstFloor
-    4300044: Floor1stFloor1
-    4300046: OutSideRailing
-    4300048: Pillars
-    4300050: Tracks
-    4300052: ExtraTunnel
-  externalObjects: {}
+    4300030: Door
+    4300032: BaseMent
+    4300034: Beam
+    4300036: Pillars
+    4300038: Tracks
+    4300040: ExtraTunnel
+    4300042: EmployeeRoom
+    4300044: FirstFloorWalls
+    4300046: RoofFirstFloor
+    4300048: Floor1stFloor1
+    4300050: OutSideRailing
+    4300052: EscalatorHall
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Basment
+    second: {fileID: 2100000, guid: 927450380d462484ca290c07c9bb0e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Beam_m
+    second: {fileID: 2100000, guid: b3eea9ee329b8094aa69b8567cb5feb0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BrokenRocks1
+    second: {fileID: 2100000, guid: 4567116d82bd47d4c9b147a5e40f0690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door4
+    second: {fileID: 2100000, guid: 407ac516e9d33ca4ab8aa4b0db463b5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EmployeeRoom2
+    second: {fileID: 2100000, guid: cdcd190ce80c7d641a3ab5c048e58667, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EscalatorHall1
+    second: {fileID: 2100000, guid: 6f1a5fdb689b5ce4db6cb5d5e71733fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ExtraTunnel1
+    second: {fileID: 2100000, guid: 52072252460786e4e8c3424cfd2cdf93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FIrstFloorFloor1
+    second: {fileID: 2100000, guid: f27436fa868be8d4481955c22caa53b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FirstFloorRoof2
+    second: {fileID: 2100000, guid: 58720a4d68796b643a6ef3218504e3f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FirstFloorWalls2
+    second: {fileID: 2100000, guid: 2ee6c04cd88844d46a1e28a1cc443b9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FirstSign
+    second: {fileID: 2100000, guid: 560ec2d984911d34296d8ed53e2b8817, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IntersectionPillars
+    second: {fileID: 2100000, guid: ba309da182b33db49a22702f1bff3d0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LongTunnel
+    second: {fileID: 2100000, guid: 5bbc9a92d91e75041b6db1314be21ca1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Map
+    second: {fileID: 2100000, guid: f04defaa499e76b4790bd5b67e5950dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OutSideRailing2
+    second: {fileID: 2100000, guid: 1b4bfa996dd94e847b01e8895ae2f539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sign3
+    second: {fileID: 2100000, guid: 6552da0aa4d89124ca48a7fff2039628, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignOne
+    second: {fileID: 2100000, guid: d42d0d5f1d6dd50478523602bc45f23f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SignTwo
+    second: {fileID: 2100000, guid: 77fdadc6f2e186743b7c9b347f882e3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stairs1
+    second: {fileID: 2100000, guid: a9c55fb2e9092414887c7d0660cfee4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Start
+    second: {fileID: 2100000, guid: 6d11821dde2a42449877b84c6d4b75bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrainTracks_TrainTracks
+    second: {fileID: 2100000, guid: 3cc624e8f694d4f46b53de45bc2e1cc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TunnelCap1
+    second: {fileID: 2100000, guid: 608416e42949b4b4fa7e65ccf3808250, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

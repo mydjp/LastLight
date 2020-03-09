@@ -16,7 +16,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CurvedPaperMat
-    second: {fileID: 2100000, guid: fc008b0c3ff19ec4487a1ab813c9e5b5, type: 3}
+    second: {fileID: 2100000, guid: a182aba9f15e71849b3258ec5d83bfb9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -47,7 +47,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.015
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
